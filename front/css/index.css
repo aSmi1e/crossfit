@@ -162,6 +162,8 @@ svg * {
   }
 }
 
+/*~~~~~~~~~~~~~~~~~CSS NORMALIZE~~~~~~~~~~~~~~~~~~*/
+
 :root {
     --color-dark: #000000;
     --color-light: #ffffff;
