@@ -497,6 +497,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 37px;
 }
 
+.training-types {
+    position: relative;
+    background-color: var(--color-dark);
+    max-width: 1920px;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
 @media (max-width: 1919px) {
     .motivation-card-image {
         margin-block: -20px;
