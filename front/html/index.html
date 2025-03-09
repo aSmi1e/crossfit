@@ -286,6 +286,208 @@
             >
         </div>
     </section>
+    <section class="calculate">
+        <div class="calculate-inner container">
+            <div class="calculate-body">
+                <h2 class="calculate-title title-medium backdrop-title"
+                data-title="BMI"
+                >
+                    Input your BMI
+                </h2>
+                <div class="calculate-description">
+                    <p>Duo graece ponderum ne, ei mel aliquando. Pro te tamquam nonumes, nam no nemore epicurei</p>
+                </div>
+                <form class="calculate-form">
+                    <div class="calculate-form-body">
+                        <label class="visually-hidden" for="height">Height</label>
+                        <input
+                                class="calculate-input input"
+                                id="height"
+                                type="number"
+                                placeholder="Height / cm"
+                        >
+
+                        <label class="visually-hidden" for="weight">Weight</label>
+                        <input
+                                class="calculate-input input"
+                                id="weight"
+                                type="number"
+                                placeholder="Weight / kg"
+                        >
+
+                        <label class="visually-hidden" for="age">Age</label>
+                        <input
+                                class="calculate-input input"
+                                id="age"
+                                type="number"
+                                placeholder="Age"
+                        >
+
+                        <label class="visually-hidden" for="gender">Gender</label>
+                        <select class="calculate-input input" id="gender" required>
+                            <option value="" disabled selected>Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+
+                        <label class="visually-hidden" for="activity-factor">Gender</label>
+                        <select class="calculate-input input wide" id="activity-factor" required>
+                            <option value="" disabled selected>Select an activity factor:</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                    </div>
+                    <button
+                            class="calculate-button button transparent"
+                            type="submit"
+                    >
+                        Calculate
+                    </button>
+                </form>
+            </div>
+            <div class="calculate-table-wrapper">
+                <table class="calculate-table">
+                    <thead>
+                        <tr>
+                            <th>BMI</th>
+                            <th>Weight status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                    <tr>
+                        <td colspan="2"><b>BMR</b>  Metabolic Rate / <b>BMI</b>  Body Mass Index</td>
+                    </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
 </main>
+<footer class="footer">
+    <div class="footer-main">
+        <div class="footer-main-inner container">
+            <header class="footer-header">
+                <a class="footer-logo" href="#" >
+                    <img class="footer-logo-image"
+                         src="../media/svg/header/header-logo-kropp.svg"
+                         alt="Kropp logo"
+                         width="270" height="50" loading="lazy"
+                    >
+                </a>
+                <p class="footer-description section-description">
+                    please feel free to send us an e-mail at <a href="mailto:kropp@qodeinteractive.com">kropp@qodeinteractive.com</a> For any additional inquiries
+                </p>
+            </header>
+            <div class="footer-body">
+                <div class="footer-column">
+                    <h2 class="footer-column-title">About</h2>
+                    <p class="footer-about">Shape up your site with Kropp, a theme especially made for fitness & gym websites.</p>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-column-title">Working hours</h2>
+                    <div class="footer-schedule">
+                        Monday - Friday<br/>
+                        <time datetime="05:30/24:00">05:30 - 24:00</time>
+                    </div>
+                    <div class="footer-schedule">
+                        Weekdays<br/>
+                        <time datetime="00:00/24:00">00:00 - 24:00</time>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-column-title">Location</h2>
+                    <address class="footer-address">
+                        68 Jay Street, Brooklyn,<br/>
+                        NY 11201, United States
+                    </address>
+                    <div class="footer-contacts">
+                        <ul class="footer-contacts-list">
+                            <li class="footer-contacts-item">
+                                <a class="footer-contacts-list" href="mailto:kropp@qodeinteractive.com">kropp@qodeinteractive.com</a>
+                            </li>
+                            <li class="footer-contacts-item">
+                                <a class="footer-contacts-list" href="tel:+17184076400">+ (1) 718 - 407 - 6400</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h2 class="footer-column-title has-arrow">start now</h2>
+                    <form class="footer-subscribe">
+                        <label for="subscribe-email" class="visually-hidden">Email</label>
+                        <input
+                                class="footer-subscribe-input input"
+                                type="email"
+                                id="subscribe-email"
+                                placeholder="Email"
+                        >
+                        <button
+                                class="footer-subscribe-button"
+                                type="submit"
+                                title="Subscribe"
+                        >
+                        <span class="visually-hidden">Subscribe</span>
+                        </button>
+                    </form>
+                    <div class="footer-soc1als">
+                        <ul class="footer-socials-list">
+                            <li class="footer-socials-item">
+                                <a href="" class="footer-socials-link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path fill="currentColor" d="M19.321 5.562a5.124 5.124 0 0 1-.443-.258a6.228 6.228 0 0 1-1.137-.966c-.849-.971-1.166-1.956-1.282-2.645h.004c-.097-.573-.057-.943-.05-.943h-3.865v14.943c0 .2 0 .399-.008.595c0 .024-.003.046-.004.073c0 .01 0 .022-.003.033v.009a3.28 3.28 0 0 1-1.65 2.604a3.226 3.226 0 0 1-1.6.422c-1.8 0-3.26-1.468-3.26-3.281c0-1.814 1.46-3.282 3.26-3.282c.341 0 .68.054 1.004.16l.005-3.936a7.178 7.178 0 0 0-5.532 1.62a7.583 7.583 0 0 0-1.655 2.04c-.163.281-.779 1.412-.853 3.246c-.047 1.04.266 2.12.415 2.565v.01c.093.262.457 1.158 1.049 1.913a7.856 7.856 0 0 0 1.674 1.58v-.01l.009.01c1.87 1.27 3.945 1.187 3.945 1.187c.359-.015 1.562 0 2.928-.647c1.515-.718 2.377-1.787 2.377-1.787a7.43 7.43 0 0 0 1.296-2.153c.35-.92.466-2.022.466-2.462V8.273c.047.028.672.441.672.441s.9.577 2.303.952c1.006.267 2.363.324 2.363.324V6.153c-.475.052-1.44-.098-2.429-.59"/></svg>
+                                </a>
+                            </li>
+                            <li class="footer-socials-item">
+                                <a href="" class="footer-socials-link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none"><g clip-path="url(#akarIconsYoutubeFill0)"><path fill="currentColor" d="M23.5 6.507a2.786 2.786 0 0 0-.766-1.27a3.05 3.05 0 0 0-1.338-.742C19.518 4 11.994 4 11.994 4a76.624 76.624 0 0 0-9.39.47a3.16 3.16 0 0 0-1.338.76c-.37.356-.638.795-.778 1.276A29.09 29.09 0 0 0 0 12c-.012 1.841.151 3.68.488 5.494c.137.479.404.916.775 1.269c.371.353.833.608 1.341.743c1.903.494 9.39.494 9.39.494a76.8 76.8 0 0 0 9.402-.47a3.05 3.05 0 0 0 1.338-.742a2.78 2.78 0 0 0 .765-1.27A28.38 28.38 0 0 0 24 12.023a26.579 26.579 0 0 0-.5-5.517M9.602 15.424V8.577l6.26 3.424z"/></g><defs><clipPath id="akarIconsYoutubeFill0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></g></svg>
+                                </a>
+                            </li>
+                            <li class="footer-socials-item">
+                                <a href="" class="footer-socials-link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" d="M7.465 1.066C8.638 1.012 9.012 1 12 1c2.988 0 3.362.013 4.534.066c1.172.053 1.972.24 2.672.511c.733.277 1.398.71 1.948 1.27c.56.549.992 1.213 1.268 1.947c.272.7.458 1.5.512 2.67C22.988 8.639 23 9.013 23 12c0 2.988-.013 3.362-.066 4.535c-.053 1.17-.24 1.97-.512 2.67a5.396 5.396 0 0 1-1.268 1.949c-.55.56-1.215.992-1.948 1.268c-.7.272-1.5.458-2.67.512c-1.174.054-1.548.066-4.536.066c-2.988 0-3.362-.013-4.535-.066c-1.17-.053-1.97-.24-2.67-.512a5.397 5.397 0 0 1-1.949-1.268a5.392 5.392 0 0 1-1.269-1.948c-.271-.7-.457-1.5-.511-2.67C1.012 15.361 1 14.987 1 12c0-2.988.013-3.362.066-4.534c.053-1.172.24-1.972.511-2.672a5.396 5.396 0 0 1 1.27-1.948a5.392 5.392 0 0 1 1.947-1.269c.7-.271 1.5-.457 2.67-.511m8.98 1.98c-1.16-.053-1.508-.064-4.445-.064c-2.937 0-3.285.011-4.445.064c-1.073.049-1.655.228-2.043.379c-.513.2-.88.437-1.265.822a3.412 3.412 0 0 0-.822 1.265c-.151.388-.33.97-.379 2.043c-.053 1.16-.064 1.508-.064 4.445c0 2.937.011 3.285.064 4.445c.049 1.073.228 1.655.379 2.043c.176.477.457.91.822 1.265c.355.365.788.646 1.265.822c.388.151.97.33 2.043.379c1.16.053 1.507.064 4.445.064c2.938 0 3.285-.011 4.445-.064c1.073-.049 1.655-.228 2.043-.379c.513-.2.88-.437 1.265-.822c.365-.355.646-.788.822-1.265c.151-.388.33-.97.379-2.043c.053-1.16.064-1.508.064-4.445c0-2.937-.011-3.285-.064-4.445c-.049-1.073-.228-1.655-.379-2.043c-.2-.513-.437-.88-.822-1.265a3.413 3.413 0 0 0-1.265-.822c-.388-.151-.97-.33-2.043-.379m-5.85 12.345a3.669 3.669 0 0 0 4-5.986a3.67 3.67 0 1 0-4 5.986M8.002 8.002a5.654 5.654 0 1 1 7.996 7.996a5.654 5.654 0 0 1-7.996-7.996m10.906-.814a1.337 1.337 0 1 0-1.89-1.89a1.337 1.337 0 0 0 1.89 1.89" clip-rule="evenodd"/></svg>
+                                </a>
+                            </li>
+                            <li class="footer-socials-item">
+                                <a href="" class="footer-socials-link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202z"/></svg>
+                                </a>
+                            </li>
+                            <li class="footer-socials-item">
+                                <a href="" class="footer-socials-link" target="_blank">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41z"/></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-extra">
+        <div class="footer-extra-inner container">
+            <div class="footer-copyright">
+                © <time datetime="2022">2022</time> Qode Interactive, All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
